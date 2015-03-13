@@ -1,0 +1,38 @@
+{
+  "name": "cti/ics-bundle",
+  "description": "Symfony bundle to deal with ICS files",
+  "type": "symfony-bundle",
+  "keywords" : [
+    "ical",
+    "ics",
+    ""
+  ],
+  "authors": [
+    {
+      "name": "Georgiana Gligor",
+      "email": "gb@tekkie.ro"
+    },
+    {
+      "name"  : "Cloudtroopers PHPers",
+      "email" : "php@cloudtroopers.ro"
+    }
+  ],
+  "require": {
+    "php"                     : ">=5.3.0",
+    "psr/log"                 : "~1.0",
+    "symfony/http-kernel"     : "~2.5"
+  },
+  "require-dev" : {
+    "symfony/framework-bundle" : "~2.5",
+    "phpunit/phpunit"          : "4.7.x-dev"
+  },
+  "autoload"    : {
+    "psr-0": { "Cti\\Bundle\\IcsBundle": "" }
+  },
+  "extra"       : {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "target-dir"  : "Cti/Bundle/IcsBundle"
+}
