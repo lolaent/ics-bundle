@@ -1,2 +1,13 @@
 parameters:
+  ics_bundle.generator.class: Cti\Ics\Generator
+  ics_bundle.output.string.class: Cti\Ics\Output\StringOutput
+
 services:
+
+  ics_bundle.output.string:
+    class: %ics_bundle.output.string.class%
+
+  ics_bundle.generator:
+    class: %ics_bundle.generator.class%
+    arguments:
+      - @ics_bundle.output.string
