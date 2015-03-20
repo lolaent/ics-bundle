@@ -7,7 +7,7 @@
          bootstrap="Tests/app/autoload.php"
         >
     <testsuites>
-        <testsuite name="Test Suite">
+        <testsuite name="Cloudtroopers Ics Bundle Test Suite">
             <directory>Tests/</directory>
         </testsuite>
     </testsuites>

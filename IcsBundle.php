@@ -1,11 +1,11 @@
 <?php
-namespace Cti\Bundle;
+namespace Cti\Bundle\IcsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * IcsBundle
  *
- * @package CTI\Bundle\IcsBundle
+ * @package Cti\Bundle\IcsBundle
  */
 class IcsBundle extends Bundle
 {

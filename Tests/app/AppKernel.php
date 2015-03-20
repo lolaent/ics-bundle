@@ -14,7 +14,7 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         return array(
-            new \Cti\Bundle\IcsBundle(),
+            new \Cti\Bundle\IcsBundle\IcsBundle(),
         );
     }
     /**
