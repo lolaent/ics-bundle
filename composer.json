@@ -21,7 +21,7 @@
     "php"                     : ">=5.3.0",
     "psr/log"                 : "~1.0",
     "symfony/http-kernel"     : "~2.5",
-    "cti/ics"                 : "0.3"
+    "cti/ics"                 : "0.4"
   },
   "require-dev" : {
     "symfony/framework-bundle" : "~2.5",
